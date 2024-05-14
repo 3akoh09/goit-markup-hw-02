@@ -24,15 +24,15 @@ a:focus {
     color: #434455; 
 }
 
-.header-nav-link {
-    font: 700 18px / 1.16667 "Raleway", sans-serif;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4d5ae5;
-}
+
 .header-nav-link {
     font: 500 16px / 1.5 "Roboto", sans-serif;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
-]
+.header-nav-color{
+    font: 700 18px / 1.16667 "Raleway", sans-serif;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
