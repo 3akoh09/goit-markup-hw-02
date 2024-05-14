@@ -6,18 +6,18 @@ body {
 .main-hero-btn:focus,
 a:hover,
 a:focus {
-    color: #434455;
+    color: #404bbf;
 }
 a:focus {
-    color: #404bbf; 
+    color: #434455; 
 }
 .main-hero-btn {
     cursor: pointer;
 }
 .header-contacts-adress a:hover,
 .header-contacts-adress a:focus {
-   color: #434455;
+   color: #404bbf;
 }
 a:focus {
-    color: #404bbf; 
+    color: #434455; 
 }
