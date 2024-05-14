@@ -1,8 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #ffffff ;
+    color: #2e2f42; ;
 
 }
+
 .main-hero-btn:hover,
 .main-hero-btn:focus,
 a:hover,
@@ -22,3 +23,16 @@ a:focus {
 a:focus {
     color: #434455; 
 }
+
+.header-nav-link {
+    font: 700 18px / 1.16667 "Raleway", sans-serif;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+.header-nav-item {
+    font: 500 16px / 1.5 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+]
