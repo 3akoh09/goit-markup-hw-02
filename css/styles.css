@@ -11,3 +11,13 @@ a:focus {
 a:focus {
     color: #404bbf; 
 }
+.main-hero-btn {
+    cursor: pointer;
+}
+.header-contacts-adress a:hover,
+.header-contacts-adress a:focus {
+   color: #434455;
+}
+a:focus {
+    color: #404bbf; 
+}
