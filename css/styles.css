@@ -26,3 +26,25 @@ color: #4d5ae5;
 .header-nav-list .header-nav-link:active {
     color: #404bbf;
 }
+.main-hero .main-hero-btn {
+   color: #fff;
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #4d5ae5;
+border-radius: 4px;
+padding: 16px 32px;
+width: 169px;
+height: 56px;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: row;
+gap: 10px; }
+
+.main-hero .main-hero-btn:hover, .main-hero .main-hero-btn:focus {
+    color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #404bbf;
+}
+   
+    
+}
