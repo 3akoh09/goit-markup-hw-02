@@ -4,7 +4,7 @@ body {
 
 }
 
-.main-hero-btn:hover,
+.main-hero-btn:hover
 a:hover {
     color: #404bbf;
 }
@@ -23,12 +23,10 @@ flex-direction: row;
 gap: 10px;
     cursor: pointer;
 }
-.header-contacts-adress a:hover,
-.header-contacts-adress a:focus {
-   color: #434455; ;
-}
-a:focus {
-    color: #404bbf
+.header-contacts-adress a:hover
+ {
+   color: #404bbf; 
+
 }
 
 
