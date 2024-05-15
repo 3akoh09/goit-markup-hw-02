@@ -6,15 +6,19 @@ body {
 
 
 .header-nav-link {
-    font: 500 16px / 1.5 "Roboto", sans-serif;
-letter-spacing: 0.02em;
-color: #2e2f42;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 .header-nav-color{
     font: 700 18px / 1.16667 "Raleway", sans-serif;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4d5ae5;
+color: #2e2f42;
 }
 .header-nav-list .header-nav-link {
     font: 500 16px / 1.5 "Roboto", sans-serif;
@@ -53,15 +57,21 @@ background: #4d5ae5;
     color: #434455;
     
 }   
-.header-contact-list .header-email-link:hover {
-    font: 400 16px / 1.5 "Roboto", sans-serif;
-letter-spacing: 0.02em;
-color: #404bbf;
-}    
-.header-contact-list .header-phone-link:hover {
+.header-contact-list .header-email-link:hover,
+.header-contact-list .header-email-link:focus {
     font: 400 16px / 1.5 "Roboto", sans-serif;
     letter-spacing: 0.02em;
     color: #404bbf;
+
+}    
+.header-contact-list .header-phone-link:hover,
+.header-contact-list .header-phone-link:focus {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+}
+.header-contacts-adress {
+    font-style: normal;
 }
 .footer .footer-link {
     font: 700 18px / 1.16667 "Raleway", sans-serif;
@@ -80,10 +90,20 @@ footer .footer-link:hover {
     color: #404bbf
 }
 .main-hero-title {
-    font: 700 56px / 1.07143 "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
+line-height: 1.07
+}
+.main-hero-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    
 }
 .main-feature-title {
     font: 500 20px / 1.2 "Roboto", sans-serif;
@@ -95,17 +115,28 @@ color: #2e2f42;
 letter-spacing: 0.02em;
 color: #434455;
 }
+.main-team {
+    background-color: #F4F4FD;
+}
+.main-team-list {
+    background-color: #FFFFFF;
+}
 .main-team-title {
-    font: 700 36px / 1.11111 "Roboto", sans-serif;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+line-height: 1.2;
+text-transform: capitalize;
+font-size: 20px;
+font-weight: 500
 }
 .ain-team-subtitle {
-    font: 500 20px / 1.2 "Roboto", sans-serif;
-letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em
 }
 .main-team-text {
     font: 400 16px / 1.5 "Roboto", sans-serif;
@@ -118,6 +149,9 @@ color: #434455;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+line-height: 1.11;
+text-transform: capitalize;
+
 }
 .main-portfolio-subtitle {
     font: 500 20px / 1.2 "Roboto", sans-serif;
@@ -137,7 +171,7 @@ letter-spacing: 0.02em;
 color: #f4f4fd;
 }
 .main-team-img{
-    
+
 background: #fff;
 }
 ul {
