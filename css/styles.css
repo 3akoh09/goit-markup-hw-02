@@ -17,7 +17,10 @@ text-transform: uppercase;
 color: #4d5ae5;
 }
 .header-nav-list .header-nav-link {
-    color: #2e2f42;
+    font: 500 16px / 1.5 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #2e2f42;
+    
 }
 .header-nav-list .header-nav-link:hover, .header-nav-list .header-nav-link:focus {
     color: #404bbf;
@@ -44,6 +47,99 @@ gap: 10px; }
     color: #fff;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #404bbf;
+
 }
-   
+.header-contact-list .header-email-link {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    color: #434455;
     
+}
+.header-contact-list .header-phone-link {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
+}   
+.header-contact-list .header-email-link:hover {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #404bbf;
+}    
+.header-contact-list .header-phone-link:hover {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+}
+.footer .footer-link {
+    font: 700 18px / 1.16667 "Raleway", sans-serif;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #f4f4fd;
+    
+}
+.footer .footer-link-color {
+    font: 700 18px / 1.16667 "Raleway", sans-serif;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+footer .footer-link:hover {
+    color: #404bbf
+}
+.main-hero-title {
+    font: 700 56px / 1.07143 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+}
+.main-feature-title {
+    font: 500 20px / 1.2 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.main-feature-text {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.main-team-title {
+    font: 700 36px / 1.11111 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+.ain-team-subtitle {
+    font: 500 20px / 1.2 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+.main-team-text {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
+}
+.main-portfolio-title {
+    font: 700 36px / 1.11111 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+.main-portfolio-subtitle {
+    font: 500 20px / 1.2 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.main-portfolio-text {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #434455;
+
+}
+.footer-text {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+}
