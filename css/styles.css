@@ -45,27 +45,27 @@ background: #4d5ae5;
     background: #404bbf;
 
 }
-.header-contact-list .header-email-link {
+.header-contact-list .header-nav-link {
     font: 400 16px / 1.5 "Roboto", sans-serif;
     letter-spacing: 0.02em;
     color: #434455;
     
 }
-.header-contact-list .header-phone-link {
+.header-contact-list .header-nav-link {
     font: 400 16px / 1.5 "Roboto", sans-serif;
     letter-spacing: 0.02em;
     color: #434455;
     
 }   
-.header-contact-list .header-email-link:hover,
-.header-contact-list .header-email-link:focus {
+.header-contact-list .header-nav-link:hover,
+.header-contact-list .header-nav-link:focus {
     font: 400 16px / 1.5 "Roboto", sans-serif;
     letter-spacing: 0.02em;
     color: #404bbf;
 
 }    
-.header-contact-list .header-phone-link:hover,
-.header-contact-list .header-phone-link:focus {
+.header-contact-list .header-nav-link:hover,
+.header-contact-list .header-nav-linkk:focus {
     font: 400 16px / 1.5 "Roboto", sans-serif;
     letter-spacing: 0.02em;
     color: #404bbf;
